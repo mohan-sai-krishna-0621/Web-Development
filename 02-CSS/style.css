@@ -82,3 +82,10 @@ h2 {
 p {
     text-decoration: underline;
 }
+
+
+.border-box {
+    border: 4px double green;
+    padding: 25px;
+    margin: 20px;
+}
