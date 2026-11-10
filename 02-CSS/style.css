@@ -30,13 +30,18 @@ p {
     font-family: Arial, sans-serif;
 }
 
+
 .card {
-    background-color: lightyellow;
+    background-color: lightgreen;
     color: darkblue;
-    border: 2px solid blue;
+    border: 2px solid green;
+
+    width: 300px;
     padding: 20px;
-    margin: 20px;
+    margin: 30px;
+
     border-radius: 10px;
+    box-sizing: border-box;
 }
 
 button {
@@ -45,4 +50,13 @@ button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
+}
+
+.box-model {
+    width: 300px;
+    background-color: lightblue;
+
+    padding: 20px;
+    border: 5px solid blue;
+    margin: 30px;
 }
