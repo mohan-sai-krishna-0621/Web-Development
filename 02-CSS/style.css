@@ -11,3 +11,38 @@ p {
     color: black;
     font-size: 18px;
 }
+
+/* ID Selector */
+#main-heading {
+    color: purple;
+    text-align: center;
+}
+
+/* Class Selector */
+.highlight {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Element Selector */
+p {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: lightyellow;
+    color: darkblue;
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
