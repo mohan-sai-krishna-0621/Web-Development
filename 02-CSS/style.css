@@ -88,4 +88,5 @@ p {
     border: 4px double green;
     padding: 25px;
     margin: 20px;
+    border-radius: 30px;
 }
