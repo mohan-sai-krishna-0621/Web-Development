@@ -89,4 +89,5 @@ p {
     padding: 25px;
     margin: 20px;
     border-radius: 30px;
+    box-shadow: 8px 8px 15px darkgray;
 }
