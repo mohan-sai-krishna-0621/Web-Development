@@ -141,3 +141,20 @@ p {
     background-color: yellow;
     padding: 15px;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    padding: 15px;
+    gap: 10px;
+}
+
+.flex-container div {
+    background-color: lightgreen;
+    padding: 20px;
+}
