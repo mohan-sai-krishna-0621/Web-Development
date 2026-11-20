@@ -158,3 +158,19 @@ p {
     background-color: lightgreen;
     padding: 20px;
 }
+
+.grid-container {
+    display: grid;
+    background-color: lightblue;
+    padding: 15px;
+    gap: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 2fr 1fr;
+    background-color: lightblue;
+    padding: 15px;
+    gap: 10px;
+}
