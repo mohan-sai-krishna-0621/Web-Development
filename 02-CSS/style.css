@@ -183,3 +183,16 @@ p {
     text-align: center;
     border: 2px solid black;
 }
+
+.transition-box {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    transition: 1s;
+}
+
+.transition-box:hover {
+    background-color: orange;
+    width: 300px;
+    border-radius: 20px;
+}
